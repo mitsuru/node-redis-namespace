@@ -1,16 +1,16 @@
 # node-redis-namespace
 Pretty much a clone of [redis-namespace](https://github.com/defunkt/redis-namespace) for node.
 
-# Install
+## Install
 	npm install redis-namespace
 
-# Use
-Use this library just as you would [node_redis](https://github.com/mranney/node_redis)
+## Use
+Use this library just as you would [redis](https://github.com/mranney/node_redis)
 
-    var redis_namespace = require('redis-namespace'),
-        client = redis_namespace.createClient();
+    var redisNs = require('redis-namespace'),
+    var client = redisNs.createClient(namespace,port,host);
     //carry on as normal
 
-# TODO
+## TODO
 1. Write Tests
 2. Goto 1
